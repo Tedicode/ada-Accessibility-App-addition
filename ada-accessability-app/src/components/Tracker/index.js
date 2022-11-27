@@ -1,6 +1,15 @@
 import Day from "./Day";
 import "./tracker.css";
 
+// Todo :
+
+// useState, local state: week
+// input select week => handler retrieves from DB entries for selected week (an array)
+// sets local state
+// useEffect : fetches array (of days) for selectedWeek, sets local state 'week' to this array
+// tracker component hydrates with selectedWeek
+// redux store : selectedWeek
+
 const Tracker = () => {
   const week = [
     {
